@@ -1,8 +1,13 @@
 -Calendar
+
 -Notifications (Relating to Calendar)
+
 http://docs.phonegap.com/en/3.3.0/cordova_notification_notification.md.html#Notification
+
 -Date keeping service (See if you can utalize the one the phone has.)
+
 -Example
+
 <!DOCTYPE html>
 <html>
   <head>
