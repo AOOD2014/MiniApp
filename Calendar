@@ -1,1 +1,34 @@
-https://github.com/android/platform_packages_apps_calendar
+//https://github.com/android/platform_packages_apps_calendar
+
+
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <classpath>
+  	<classpathentry kind="src" path="src_ex_common"/>
+  	<classpathentry kind="src" path="src_opt_calendar"/>
+  	<classpathentry kind="src" path="extensions_src"/>
+  	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+  	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+  	<classpathentry kind="lib" path="../../../out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes"/>
+  	<classpathentry kind="src" path="src"/>
+  	<classpathentry kind="src" path="gen"/>
+  	<classpathentry kind="output" path="bin/classes"/>
+
+
+
+
+ package com.android.calendar;
+ import android.content.Context;
+ import android.view.Menu;
+ import android.view.MenuItem;
+  
+  
+  
+  import android.app.Activity;
+  import android.content.pm.PackageInfo;
+
+ import com.android.calendar.CalendarController.EventType;
+  import com.android.calendar.CalendarController.ViewType;
+  import com.android.calendar.agenda.AgendaFragment;
+  import com.android.calendar.month.MonthByWeekFragment;
+  import com.android.calendar.selectcalendars.SelectVisibleCalendarsFragment;
