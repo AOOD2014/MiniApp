@@ -2,7 +2,7 @@
 <description>
 handles notifications
 </description>
-
+<preference name="orientation" value="default" />
 
 //String message " This is a message" ; 
 //String header " This is the header " ; 
