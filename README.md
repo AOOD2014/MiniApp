@@ -5,3 +5,8 @@
 
 
 //window.alert("sometext") ; 
+
+
+<description>
+handles notifications
+</description>
