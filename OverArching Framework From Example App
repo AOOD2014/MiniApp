@@ -120,7 +120,9 @@ function onLoad() {
     // device APIs are available
     //
     function onDeviceReady() {
-        // Now safe to use device APIs
+        var myContact = navigator.contacts.create({"Thomas Sankey": "Test User"});
+        myContact.note = "High School Math teacher.";
+        console.log("The contact, " + myContact.displayName + ", note: " + myContact.note);
     }
 
 </widget>
