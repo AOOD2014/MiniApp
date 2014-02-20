@@ -61,6 +61,7 @@ permission on your app, which PhoneGap requires.
     
 
     <!-- Third party plugins -->
+    <!-- I want to have each plugin with a description in comments after it -->
     <gap:plugin name="nl.x-services.plugins.calendar" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
     <gap:plugin name="com.simplec.plugins.powermanagement" />
