@@ -68,6 +68,7 @@ permission on your app, which PhoneGap requires.
     <gap:plugin name="nl.x-services.plugins.insomnia" />
     <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
     <gap:plugin name="com.kumbe.phonegap.zoom.zoomcontrol" />
+    <gap:plugin name="us.rcs.phonegap.plugins.screendim.screendim.plugin" />
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
 
