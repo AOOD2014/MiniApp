@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<h1> User Input Code </h1>
+
+<form>
+Test Text Field: <input type="text" name="test"><br>
+</form>
+
+<form name="input" action="html_form_action.asp" method="get">
+Test Submit Button : <input type ="text" name="test02">
+<input type="submit" value="Submit">
+</form>
+
+<form>
+<input type="checkbox" name="test03" value="Matrix"> The Red Pill <br>
+<input type="checkbox" name="test03" value="No matrix"> The Blue Pill
+</form>
+
+<form>
+Password: <input type="password" name="pwd">
+</form>
+
+</body>
+</html>
